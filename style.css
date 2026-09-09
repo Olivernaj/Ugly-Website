@@ -1,0 +1,237 @@
+body {
+    background-color: lime;
+    color: purple;
+    font-family: "Comic Sans MS", cursive;
+    margin: 0;
+}
+
+
+
+
+/* HEADER */
+
+
+header {
+    background-color: hotpink;
+    border: 10px dashed yellow;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+h1 {
+    color: red;
+    background-color: yellow;
+    font-size: 50px;
+    text-shadow: 5px 5px 5px blue;
+}
+
+
+
+
+/* NAVIGATION */
+
+
+nav {
+    background-color: orange;
+    padding: 20px;
+    text-align: center;
+}
+
+
+nav a {
+    color: blue;
+    background-color: yellow;
+    padding: 15px;
+    margin: 10px;
+    font-size: 25px;
+    text-decoration: underline;
+    border: 5px dotted red;
+}
+
+
+
+
+/* MAIN CONTENT */
+
+
+main {
+    padding: 30px;
+}
+
+
+section {
+    background-color: cyan;
+    border: 8px double red;
+    margin: 25px;
+    padding: 25px;
+}
+
+
+.hero-section {
+    background-color: pink;
+    text-align: center;
+}
+
+
+.hero-image {
+    width: 80%;
+    max-width: 900px;
+    border: 15px ridge magenta;
+}
+
+
+
+
+/* HEADINGS */
+
+
+h2 {
+    color: green;
+    font-size: 35px;
+    background-color: yellow;
+    border: 5px solid purple;
+    padding: 10px;
+}
+
+
+h3 {
+    color: orange;
+    font-size: 30px;
+}
+
+
+
+
+/* TEXT */
+
+
+p {
+    background-color: pink;
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+    border: 4px solid blue;
+}
+
+
+
+
+/* LIST */
+
+
+ul {
+    background-color: yellow;
+    border: 6px dashed purple;
+    padding: 30px;
+}
+
+
+li {
+    color: red;
+    font-size: 25px;
+    margin: 10px;
+}
+
+
+
+
+/* IMAGE GALLERY */
+
+
+.gallery {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.gallery img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border: 12px outset orange;
+}
+
+
+
+
+/* LINKS */
+
+
+a {
+    color: blue;
+}
+
+
+a:hover {
+    color: red;
+    background-color: lime;
+}
+
+
+
+
+/* FOOTER */
+
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    border-top: 20px solid red;
+}
+
+
+footer p {
+    background-color: white;
+    color: black;
+}
+
+
+
+
+/* FORM */
+
+
+form {
+    background-color: purple;
+    padding: 30px;
+    border: 10px dotted yellow;
+}
+
+
+label {
+    color: yellow;
+    font-size: 25px;
+}
+
+
+input {
+    padding: 15px;
+    font-size: 20px;
+    background-color: yellow;
+    border: 5px solid green;
+}
+
+
+button {
+    padding: 15px;
+    font-size: 20px;
+    background-color: red;
+    color: yellow;
+    border: 5px dotted blue;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: lime;
+    color: purple;
+}
+
+
